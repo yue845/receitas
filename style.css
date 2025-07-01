@@ -13,7 +13,7 @@
 
 header {
     display: grid;
-    grid-template-columns: 30% 55% 5%;
+    grid-template-columns: 40% 60%;
     width: 100%;
     background-color: var(--capuccino);
     padding: 25px;
