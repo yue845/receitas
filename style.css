@@ -5,18 +5,18 @@
 }
 
 :root {
-    --roxo: #A294F9;
-    --lilas: #CDC1FF;
-    --areia-roxa: #E5D9F2;
-    --roxinho: #F5EFFF;
+    --capuccino: #A87676;
+    --rosao: #CA8787;
+    --nude: #E1ACAC;
+    --rosinha: #FFD0D0;
 }
 
 header {
     display: flex;
     width: 100%;
-    background-color: var(--roxo);
-    padding: 25px; /*espaçamento interno*/
-    position: relative; /*posiciona em relação a posição inicial*/
+    background-color: var(--capuccino);
+    padding: 25px;
+    position: relative;
     justify-content: center;
 }
 
@@ -29,7 +29,7 @@ header {
     cursor: pointer;
     font-size: 20px;
     background: none;
-    background-color: var(--lilas);
+    background-color: var(--rosao);
     border: none;
     border-radius: 5px;
     padding: 15px 12px;
@@ -58,8 +58,8 @@ header {
 .listinha {
     display: none;
     position: absolute;
-    background-color: var(--lilas);
-    box-shadow: 0 2px 5px var(--roxinho);
+    background-color: var(--rosao);
+    box-shadow: 0 2px 5px var(--rosinha);
     min-width: 190px;
     z-index: 1;
     top: 100%;
@@ -76,7 +76,7 @@ header {
 }
 
 .listinha a:hover {
-    background-color: var(--areia-roxa);
+    background-color: var(--nude);
 }
 
 #menu-toggle:checked ~ .listinha {
@@ -105,4 +105,9 @@ ul {
 
 li {
     list-style: none;
+}
+
+.titulocabecalho h1 {
+    font-size: 3rem;
+    color: white;
 }
