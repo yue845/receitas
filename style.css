@@ -12,20 +12,22 @@
 }
 
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: 30% 55% 5%;
     width: 100%;
     background-color: var(--capuccino);
     padding: 25px;
     position: relative;
     justify-content: center;
+    align-items: center;
 }
 
-.menu-materias {
+.menu-receitas {
     width: 15%;
     display: inline-block;
 }
 
-.botao-materias {
+.botao-receitas {
     cursor: pointer;
     font-size: 20px;
     background: none;
