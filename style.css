@@ -36,16 +36,6 @@ header {
     color: black;
 }
 
-.menu button {
-    text-decoration: none;
-    background-color: #CDC1FF;
-    color: black;
-    font-size: 18px 8px;
-    padding: 5px 10px;
-    margin: 0px 8px;
-    border-radius: 5px;
-}
-
 .menu a {
     text-decoration: none;
     color: black;
