@@ -12,14 +12,13 @@
 }
 
 header {
-    display: grid;
-    grid-template-columns: 40% 60%;
+    display: flex;
     width: 100%;
     background-color: var(--capuccino);
     padding: 25px;
     position: relative;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 body {
