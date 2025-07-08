@@ -109,7 +109,7 @@ li {
 .receitinha {
     display: flex;
     justify-content: center;
-    background-color: var(--rosinha);
+    background-color: var(--nude);
     border-radius: 15px;
     padding: 30px;
     width: 80%;
@@ -118,7 +118,7 @@ li {
 }
 
 .receitinha a {
-    color: var(--roxo);
+    color: white;
     font-size: 45px;
     text-decoration: none;
 }
