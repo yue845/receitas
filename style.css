@@ -112,3 +112,9 @@ li {
     min-width: 270px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
+
+.receitinha a {
+    color: var(--roxo);
+    font-size: 5rem;
+    text-decoration: none;
+}
