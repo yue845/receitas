@@ -101,3 +101,13 @@ li {
     gap: 50px;
     flex-wrap: wrap;
 }
+
+.receitinha {
+    background-color: var(--branco);
+    border-radius: 10px;
+    padding: 30px;
+    width: 80%;
+    min-width: 280px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
