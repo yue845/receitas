@@ -94,12 +94,8 @@ li {
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
-    flex-wrap: wrap;
+    margin: 40px;
+    gap: 30px;
 }
 
 .receitinha {
