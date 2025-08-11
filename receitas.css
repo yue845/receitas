@@ -11,15 +11,18 @@
     --rosinha: #ffeeee;
 }
 
+body {
+    background-color: var(--rosinha);
+    font-family: Arial, sans-serif;
+}
+
 header {
-     display: grid;
+    display: grid;
     width: 100%;
     grid-template-columns: 10% 70% 20%;
     background-color: var(--capuccino);
     padding: 25px;
-    position: relative;
     align-items: center;
-    justify-content: center;
 }
 
 header img {
@@ -29,26 +32,98 @@ header img {
 }
 
 .titulocabecalho h1 {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-size: 60px;
     color: white;
 }
 
 .menuzinho button {
-    text-decoration: none;
     background-color: var(--rosao);
-    color: white;
-    border: #895d5d;
+    border: none;
     padding: 10px 15px;
     margin: 0px 8px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .menuzinho a {
     text-decoration: none;
     color: white;
 }
-body {
-    background-color: var(--rosinha);
+
+.conteudo {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.receita h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.colunas {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 20px;
+    align-items: start;
+}
+
+.texto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ingredientes, .preparo {
+    margin-bottom: 20px;
+}
+
+.ingredientes h3, .preparo h3 {
+    margin-bottom: 10px;
+    color: var(--capuccino);
+}
+
+.ingredientes ul, .preparo ol {
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+.imagem img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    background-color: var(--capuccino);
+    text-align: center;
+    padding: 20px;
+}
+
+footer img {
+    width: 80%;
+    border-radius: 55px;
+}
+
+.icones h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 10px;
+}
+
+.icones a {
+    color: var(--nude); /* cor dos ícones */
+    font-size: 30px; /* tamanho dos ícones */
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.icones a:hover {
+    color: var(--rosao); /* cor ao passar o mouse */
 }
