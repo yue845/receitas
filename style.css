@@ -79,9 +79,10 @@ footer img {
     width: 55%;
 }
 
-footer h3 {
+.escrita-rodape {
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 .icones a {
@@ -92,5 +93,5 @@ footer h3 {
 }
 
 .icones a:hover {
-    color: #ff4d4d; /* cor ao passar o mouse */
+    color: var(--rosao); /* cor ao passar o mouse */
 }
