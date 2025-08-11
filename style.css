@@ -21,13 +21,17 @@ header {
     justify-content: center;
 }
 
-body {
-    background-color: var(--rosinha);
+header img {
+    width: 30%;
 }
 
 .titulocabecalho h1 {
     font-size: 70px;
     color: white;
+}
+
+body {
+    background-color: var(--rosinha);
 }
 
 .container {
