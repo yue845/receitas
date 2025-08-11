@@ -11,6 +11,30 @@
     --rosinha: #ffeeee;
 }
 
+header {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 10% 90%;
+    background-color: var(--capuccino);
+    padding: 25px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 70%;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.titulocabecalho h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: white;
+}
+
 .menuzinho button {
     text-decoration: none;
     background-color: var(--rosao);
@@ -24,4 +48,7 @@
 .menuzinho a {
     text-decoration: none;
     color: white;
+}
+body {
+    background-color: var(--rosinha);
 }
