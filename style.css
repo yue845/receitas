@@ -23,7 +23,7 @@ header {
 }
 
 header img {
-    width: 40%;
+    width: 70%;
     margin: 10px;
     border-radius: 50px;
 }
@@ -79,7 +79,7 @@ footer {
 
 footer img {
     width: 80%;
-    border-radius: 50px;
+    border-radius: 55px;
 }
 
 .icones h2 {
