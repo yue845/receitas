@@ -68,7 +68,7 @@ body {
 
 footer {
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 10% 90%;
     align-items: center;
     background-color: var(--capuccino);
     text-align: center;
@@ -86,12 +86,12 @@ footer img {
 }
 
 .icones a {
-    color: var(--rosao); /* cor dos ícones */
+    color: var(--nude); /* cor dos ícones */
     font-size: 30px; /* tamanho dos ícones */
     margin: 0 10px;
     transition: color 0.3s;
 }
 
 .icones a:hover {
-    color: var(--nude); /* cor ao passar o mouse */
+    color: var(--rosao); /* cor ao passar o mouse */
 }
