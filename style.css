@@ -77,6 +77,11 @@ footer img {
     width: 55%;
 }
 
+footer p {
+    display: flex;
+    justify-content: center;
+}
+
 /* .container {
     display: flex;
     flex-direction: column;
