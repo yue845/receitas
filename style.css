@@ -66,6 +66,16 @@ body {
     display: block; /* garante que o alinhamento funcione bem */
 }
 
+footer {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    background-color: var(--capuccino);
+}
+
+footer img {
+    width: 55%;
+}
 
 /* .container {
     display: flex;
