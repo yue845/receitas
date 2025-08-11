@@ -76,13 +76,15 @@ footer {
 }
 
 footer img {
-    width: 55%;
+    width: 80%;
+    border-radius: 50px;
 }
 
 .icones h2 {
     display: flex;
     justify-content: center;
     color: white;
+    margin: 10px;
 }
 
 .icones a {
