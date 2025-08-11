@@ -31,6 +31,32 @@ body {
 }
 
 .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
+    gap: 30px; /* espaço entre os quadradinhos */
+    margin: 40px;
+    justify-items: center; /* centraliza os itens dentro das colunas */
+}
+
+.receitinha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--nude);
+    border-radius: 15px;
+    width: 220px; /* largura fixa para todos */
+    height: 120px; /* altura fixa para todos */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.receitinha a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/* .container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -53,4 +79,4 @@ body {
     color: black;
     font-size: 45px;
     text-decoration: none;
-}
+} */
