@@ -68,41 +68,29 @@ body {
 
 footer {
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 10% 45% 45%;
     align-items: center;
     background-color: var(--capuccino);
+    text-align: center;
+    padding: 20px;
 }
 
 footer img {
     width: 55%;
 }
 
-footer p {
+footer h3 {
     display: flex;
     justify-content: center;
 }
 
-/* .container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 40px;
-    gap: 30px;
-    align-content: center;
+.icones a {
+    color: black; /* cor dos ícones */
+    font-size: 30px; /* tamanho dos ícones */
+    margin: 0 10px;
+    transition: color 0.3s;
 }
 
-.receitinha {
-    display: flex;
-    justify-content: center;
-    background-color: var(--nude);
-    border-radius: 15px;
-    padding: 55px;
-    width: 60%;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+.icones a:hover {
+    color: #ff4d4d; /* cor ao passar o mouse */
 }
-
-.receitinha a {
-    color: black;
-    font-size: 45px;
-    text-decoration: none;
-} */
