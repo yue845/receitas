@@ -49,17 +49,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center; /* centraliza o texto em várias linhas */
     background-color: var(--nude);
     border-radius: 15px;
     width: 420px; /* largura fixa para todos */
     height: 220px; /* altura fixa para todos */
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    padding: 10px; /* dá um respiro nas bordas */
 }
 
 .receitinha a {
     color: black;
     font-size: 50px;
     text-decoration: none;
+    line-height: 1.2; /* reduz o espaço entre as linhas */
+    display: block; /* garante que o alinhamento funcione bem */
 }
 
 
