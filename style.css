@@ -12,8 +12,9 @@
 }
 
 header {
-    display: flex;
+    display: grid;
     width: 100%;
+    grid-template-columns: 30% 70%;
     background-color: var(--capuccino);
     padding: 25px;
     position: relative;
@@ -22,7 +23,8 @@ header {
 }
 
 header img {
-    width: 30%;
+    width: 20%;
+    margin: 10px;
 }
 
 .titulocabecalho h1 {
