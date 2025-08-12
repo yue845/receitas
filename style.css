@@ -41,31 +41,31 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
-    gap: 30px; /* espaço entre os quadradinhos */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
     margin: 40px;
-    justify-items: center; /* centraliza os itens dentro das colunas */
+    justify-items: center;
 }
 
 .receitinha {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center; /* centraliza o texto em várias linhas */
+    text-align: center;
     background-color: var(--nude);
     border-radius: 15px;
-    width: 420px; /* largura fixa para todos */
-    height: 220px; /* altura fixa para todos */
+    width: 420px;
+    height: 220px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-    padding: 10px; /* dá um respiro nas bordas */
+    padding: 10px;
 }
 
 .receitinha a {
     color: black;
     font-size: 50px;
     text-decoration: none;
-    line-height: 1.2; /* reduz o espaço entre as linhas */
-    display: block; /* garante que o alinhamento funcione bem */
+    line-height: 1.2;
+    display: block;
 }
 
 footer {
@@ -90,12 +90,12 @@ footer img {
 }
 
 .icones a {
-    color: var(--nude); /* cor dos ícones */
-    font-size: 30px; /* tamanho dos ícones */
+    color: var(--nude);
+    font-size: 30px;
     margin: 0 10px;
     transition: color 0.3s;
 }
 
 .icones a:hover {
-    color: var(--rosao); /* cor ao passar o mouse */
+    color: var(--rosao);
 }
